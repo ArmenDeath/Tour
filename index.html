@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <img class="logo" src="img/logo.svg" alt="logo">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">Home</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">Destinations</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">About</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">Partner</a>
+                    </li>
+                    <button class="nav__btn btn">
+                        Login
+                    </button>
+                    <button class="nav__btn btn">
+                        Register
+                    </button>
+                </ul>
+            </nav>
+
+            <div class="header__inner">
+                <div class="header__content">
+                    <h1 class="header__title">Explore and<br>Travel</h1>
+                    <div class="header__info">
+                        <h2 class="select__title">Holiday finder</h2>
+                        <div class="header__select">
+                            <select class="select">
+                                <option value="Location">Location</option>
+                            </select>
+                            <select class="select">
+                                <option value="Activity">Activity</option>
+                            </select>
+                            <select class="select">
+                                <option value="Grade">Grade</option>
+                            </select>
+                            <select class="select">
+                                <option value="Date">Date</option>
+                            </select>
+                        </div>
+                        <button class="select__button btn">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="research">
+        <div class="container">
+            <div class="research__inner inner--all">
+                <img class="research__img img" src="img/research-img.png" alt="">
+                <div class="section__research">
+                    <h3 class="research__title title title--all">A new way to explore the world</h3>
+                    <p class="research__text text--all">
+                        For decades travellers have reached for Lonely Planet books when looking to plan and execute
+                        their
+                        perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                    <button class="research__button btn btn--all">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="travel">
+        <div class="container">
+            <h3 class="travel__title title">Featured destinations</h3>
+            <a class="travel__view-link" href="#">View all <img class="arrow-right" src="img/arrow-right.svg"
+                    alt=""></a>
+            <div class="travel__info">
+                <div class="travel__block1 travel__block">
+                    <div class="travel__box-1 travel-box">
+                        <span class="travel__span">Raja Ampat
+                            <p class="travel__text">Indonesia</p>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="travel__block2 travel__block">
+                    <div class="travel__box-1 travel-box">
+                        <span class="travel__span">Raja Ampat
+                            <p class="travel__text">Indonesia</p>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="travel__block3 travel__block">
+                    <div class="travel__box-1 travel-box">
+                        <span class="travel__span">Raja Ampat
+                            <p class="travel__text">Indonesia</p>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="travel__block4 travel__block">
+                    <div class="travel__box-1 travel-box">
+                        <span class="travel__span">Raja Ampat
+                            <p class="travel__text">Indonesia</p>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="guide">
+        <div class="container">
+            <div class="guide__inner inner--all">
+                <div class="section__guide">
+                    <h3 class="guide__title title title--all">A new way to explore the world</h3>
+                    <p class="guide__text text--all">
+                        For decades travellers have reached for Lonely Planet books when looking to plan and execute
+                        their
+                        perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                    <button class="guide__button btn btn--all" type="file">
+                        Download
+                    </button>
+                </div>
+                <img class="guide__img img" src="img/guide-bg.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h3 class="testimonials__title title">Testimonials</h3>
+            <div class="testimonials__inner">
+                <div class="testimonials__info">
+
+                    <q class="testimonials__text">
+                        “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                        facilisis
+                        quis purus. Morbi blandit sit amet turpis nec”
+                    </q>
+                    <span class="testimonials__span">
+                        Edward Newgate
+                    </span>
+                    <p class="testimonials__circle-text">Founder Circle</p>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="img/photo-img1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="img/photo-img1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="img/photo-img1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper__img" src="img/photo-img1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories">
+        <div class="container">
+            <h3 class="travel__title title">Trending stories</h3>
+            <a class="travel__view-link" href="#">View all <img class="arrow-right" src="img/arrow-right.svg"
+                    alt=""></a>
+            <div class="stories__inner">
+                <div class="stories__info">
+                    <img class="stories__img" src="img/stories-1.jpg" alt="">
+                    <h4 class="stories__letter">The many benefits of<br> taking a healing holiday</h4>
+                    <p class="stories__text">
+                        ‘Helaing holidays’ are on the rise tohelp maximise your health and
+                        happines...
+                    </p>
+                    <a class="stories__read" href="#">Read more</a>
+                </div>
+                <div class="stories__info">
+                    <img class="stories__img" src="img/stories-2.jpg" alt="">
+                    <h4 class="stories__letter">The best Kyoto restaurant<br>to try Japanese food</h4>
+                    <p class="stories__text">
+                        From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                        to visit...
+                    </p>
+                    <a class="stories__read" href="#">Read more</a>
+                </div>
+                <div class="stories__info">
+                    <img class="stories__img" src="img/stories-3.jpg" alt="">
+                    <h4 class="stories__letter">Skip Chichen Itza and head to this remote Yucatan</h4>
+                    <p class="stories__text">
+                        It’s remote and challenging to get,
+                        but braving the jungle and exploring
+                        these ruins without the....
+                    </p>
+                    <a class="stories__read" href="#">Read more</a>
+                </div>
+                <div class="stories__info">
+                    <img class="stories__img" src="img/stories-4.jpg" alt="">
+                    <h4 class="stories__letter">Surf’s up at these beginner spots around the world</h4>
+                    <p class="stories__text">
+                        If learning to surf has in on your to-
+                        do list for a while, the good news
+                        is: it’s never too late...
+                    </p>
+                    <a class="stories__read" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <img class="logo" src="img/logo.svg" alt="">
+                <p>
+                    Plan and book your perfect trip with
+                    expert advice, travel tips destination
+                    information from us
+                </p>
+                <span>©2020 Thousand Sunny. All rights reserved</span>
+            </div>
+            <div class="footer__right">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <h4 class="footer__title">Destinations</h4>
+                        <li class="footer__item"><a class="footer__link" href="#">Art And Culture</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Wildlife And Nature</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Family Holidays</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Food And Drink</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#"></a> America</li>
+                    </ul>
+                    <ul class="footer__list">
+                        <h4 class="footer__title">Shop</h4>
+                        <li class="footer__item"><a class="footer__link" href="#">Art And Culture</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Wildlife And Nature</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Family Holidays</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Food And Drink</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#"></a> America</li>
+                    </ul>
+                    <ul class="footer-nav__list">
+                        <h4 class="footer__title">Adventure Travel</h4>
+                        <li class="footer__item"><a class="footer__link" href="#">Art And Culture</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Wildlife And Nature</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Family Holidays</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#">Food And Drink</a> </li>
+                        <li class="footer__item"><a class="footer__link" href="#"></a> America</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <ul class="footer_social">
+            <li>
+                <a href="#">
+                    <img src="img/frame.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/feecbok.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/insta.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/in.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/youtube.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
