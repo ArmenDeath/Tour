@@ -305,6 +305,10 @@ font-family: 'Mulish', sans-serif; */
   gap: 50px;
 }
 
+.guide__title {
+  padding-bottom: 50px;
+}
+
 .guide__text {
   margin-bottom: 40px;
 }
